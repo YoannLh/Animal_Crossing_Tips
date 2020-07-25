@@ -42,9 +42,9 @@ define("WEBSITE_FACEBOOK_URL", "");
 define("WEBSITE_FACEBOOK_IMAGE", "");
 
 // DataBase informations
-define("DATABASE_HOST", "db5000477681.hosting-data.io");
-define("DATABASE_NAME", "dbs457745");
-define("DATABASE_USER", "dbu798605");
+define("DATABASE_HOST", "db5000688547.hosting-data.io");
+define("DATABASE_NAME", "dbs635820");
+define("DATABASE_USER", "dbu56069");
 define("DATABASE_PASSWORD", "Chaineverre#203");
 
 

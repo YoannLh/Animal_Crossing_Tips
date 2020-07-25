@@ -5,7 +5,7 @@
         <p class="text-muted" style="margin-top: 17px">Bienvenue <?= $_SESSION['pseudo'] ?></p>
       </div>
       <div class="col-4 text-center">
-        <h1 class="blog-header-logo cold-blue"><a href="home">Loulou</a></h1> 
+        <a href="home"><img src="assets/images/logoAC.png" alt="logo"></a> 
       </div>
       
       <div class="col-4 flex" style="justify-content: flex-end">
@@ -49,6 +49,9 @@
               </button>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                 <form method="post">
+                  <button class="btn btn-link" type="submit" name="profile">
+                    <a>Profil</a>
+                  </button>
                   <button class="btn btn-link" type="submit" name="writeNew">
                     <a>Ecrire un billet</a>
                   </button>

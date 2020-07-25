@@ -1,30 +1,8 @@
 <?php
 
-	if(isset($_POST['deconnexion'])) {
+	include_once 'functions/checkActionsAndStatus.php';
 
-		$_SESSION = array();
-
-		header('location: home');
-		exit();
-	}
-
-	if(isset($_POST['return'])) {
-
-		header('location: home');
-		exit();
-	}
-
-	if(isset($_POST['writeNew']) && $_SESSION['rank'] == "admin") {
-
-		header('location: tiny');
-		exit();
-	}
-
-	if(isset($_POST['moderate']) && $_SESSION['rank'] == "admin") {
-
-		header('location: comment_manager');
-		exit();
-	}
+	checkActionsAndStatus();
 
 	function showThreeLastPosts() { 
 
@@ -42,7 +20,7 @@
 				$_POST['title'] = $allpost['title'];
 				$_POST['post'] = $allpost['post'];
 				$_POST['hour'] = $allpost['hour'];
-				$_POST['author'] = "Jean Forteroche"; ?>
+				$_POST['author'] = "Yoann"; ?>
 
 				<div class="blog-post">
 					<a href="showonepostandcomments?id=<?= $_POST['id'] ?> ">
@@ -69,7 +47,7 @@
 		$i = 0; ?>
 	
 			<div class="p-4 center">
-			        <h4 class="font-italic" style="margin-bottom: 20px">Tous les posts</h4>
+			        <h4 class="font-italic" style="margin-bottom: 20px">Toutes les astuces</h4>
 				    <ol class="list-unstyled mb-0">
 
 				    <?php

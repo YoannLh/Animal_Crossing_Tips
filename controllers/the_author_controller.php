@@ -1,11 +1,7 @@
 <?php
 
-	if(isset($_POST['deconnexion'])) {
+	include_once 'functions/checkActionsAndStatus.php';
 
-		$_SESSION = array();
-
-		header('location: ?page=home');
-		exit();
-	}
+	checkActionsAndStatus();
 
 ?>

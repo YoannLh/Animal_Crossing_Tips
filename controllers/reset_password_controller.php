@@ -1,11 +1,8 @@
 <?php
 
-	if (isset($_SESSION['connect']) && isset($_SESSION['pseudo'])) {
+	include_once 'functions/checkActionsAndStatus.php';
 
-		header('location: home');
-		exit();
-
-	}
+	checkActionsAndStatus();
 
 	function sendMail($checkingMail) {
 
@@ -22,7 +19,7 @@
 						<p>Vous avez demandé une récupération de mot de passe. Afin de procéder, veuillez cliquer sur le lien ci-dessous.
 						</p>
  
-						<p>http://lhostisyoann.com/projet-4/create_new_password?log=' . 
+						<p>http://lhostisyoann.com/projet-5/create_new_password?log=' . 
 						urlencode($destinataire) . 
 						'</p>
 

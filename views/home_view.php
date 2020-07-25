@@ -32,7 +32,7 @@
 		      <h1 style="text-shadow: 1px 1px 2px black" class="display-4 font-italic">Tous les trucs et astuces de New Horizons !</h1>
 		      <p style="text-shadow: 1px 1px 2px black" class="lead my-3">Profitez au mieux du jeu <br/>avec des tas de clochettes !</p>
 		      <p style="text-shadow: 1px 1px 2px black" class="lead mb-0">
-		      	<a href="showonepostandcomments?id=12" class="text-white font-weight-bold">Astuce numéro 1</a>
+		      	<a href="showonepostandcomments?id=12" class="text-white font-weight-bold">Lire: astuce numéro 1</a>
 		      </p>
 		    </div>
 		  </div>
@@ -42,28 +42,28 @@
 		    <div class="col-md-6">
 		      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
 		        <div class="col p-4 d-flex flex-column position-static">
-		          <strong class="d-inline-block mb-2 text-primary">Version précédente</strong>
-		          <h3 class="mb-0">Animal Crossing DS</h3>
+		          <strong class="d-inline-block mb-2 text-primary">Version antérieure</strong>
+		          <h3 class="mb-0">Animal Crossing: Wild World</h3>
 		          <div class="mb-1 text-muted">Nov 12</div>
 		          <p class="card-text mb-auto">Découvrez l'ambiance sulfureuse des bars clandestins de l'Amerique des années 30...</p>
 		          <a href="book1" class="stretched-link"></a>
 		        </div>
-		        <div class="col-auto d-none d-lg-block">
-		        	<img src="assets/images/cover_book1.jpeg" alt="ancienne_photo_hommes" style="width: 200px" />
+		        <div class="col-auto d-none d-lg-block" style="align-items: center">
+		        	<img src="assets/images/wild_world.png" alt="jaquette_jeu_wild_world" style="width: 200px" />
 		        </div>
 		      </div>
 		    </div>
 		    <div class="col-md-6">
 		      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
 		        <div class="col p-4 d-flex flex-column position-static">
-		          <strong class="d-inline-block mb-2 text-success">Version précédente</strong>
+		          <strong class="d-inline-block mb-2 text-success">Version antérieure</strong>
 		          <h3 class="mb-0">Animal Crossing: New Leaf</h3>
 		          <div class="mb-1 text-muted">Jan 18</div>
 		          <p class="mb-auto">A quoi peut bien aspirer un courant d'air dans la vie ?</p>
 		          <a href="book2" class="stretched-link"></a>
 		        </div>
-		        <div class="col-auto d-none d-lg-block">
-		          <img src="assets/images/air.jpg" alt="photo_nuages" style="width: 200px" />
+		        <div class="col-auto d-none d-lg-block" style="align-items: center">
+		          <img src="assets/images/new_leaf.jpg" alt="jaquette_jeu_new_leaf" style="width: 215px" />
 		        </div>
 		      </div>
 		    </div>

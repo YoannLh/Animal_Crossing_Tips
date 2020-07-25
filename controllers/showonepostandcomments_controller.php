@@ -1,5 +1,9 @@
 <?php 
 
+	include_once 'functions/checkActionsAndStatus.php';
+
+	checkActionsAndStatus();
+
 	if($_SESSION['rank'] == "admin") {
 
 		$buttonReportOrDeleteComment = '<button type="submit" class="btn btn-link" class="buttonReportOrDelete" 									name="deleteComment">

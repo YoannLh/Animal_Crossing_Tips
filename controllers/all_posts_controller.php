@@ -1,5 +1,9 @@
 <?php
 
+	include_once 'functions/checkActionsAndStatus.php';
+
+	checkActionsAndStatus();
+
 	function showAllPosts() {
 
 		$allPosts = new AllPosts ?>

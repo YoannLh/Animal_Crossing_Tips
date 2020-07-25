@@ -1,30 +1,8 @@
 <?php
 
-	if(isset($_POST['deconnexion'])) {
+	include_once 'functions/checkActionsAndStatus.php';
 
-		$_SESSION = array();
-
-		header('location: home');
-		exit();
-	}
-
-	if(isset($_POST['return'])) {
-
-		header('location: home');
-		exit();
-	}
-
-	if(isset($_POST['writeNew'])) {
-
-		header('location: tiny');
-		exit();
-	}
-
-	if(isset($_POST['moderate'])) {
-
-		header('location: comment_manager');
-		exit();
-	}
+	checkActionsAndStatus();
 
 	$buttonNoDelete = '<input type="submit" class="btn btn-link buttonNoDelete" 														name="noDeleteComment" value="Ne pas supprimer du fil"
 						/>';

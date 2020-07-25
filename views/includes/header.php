@@ -4,7 +4,7 @@
       <div class="col-4 pt-1">
     </div>
     <div class="col-4 text-center">
-      <a href="home"><img src="assets/images/logoAC.png" alt="logo"></a>
+      <a href="home"><img src="assets/images/logoAC.png" alt="logo" class="imgLogo"></a>
     </div>
     <div class="col-4 d-flex justify-content-end align-items-center">
 

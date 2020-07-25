@@ -1,5 +1,9 @@
 <?php
 
+	include_once 'functions/checkActionsAndStatus.php';
+
+	checkActionsAndStatus();
+
 	function sendMailToAuthor() {
 
 		if($_SESSION['connect'] && isset($_SESSION['pseudo'])) {
