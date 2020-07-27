@@ -58,6 +58,7 @@
 						$_SESSION['pseudo'] = ucfirst($compare_password['pseudo']);
 						$_SESSION['mail'] = $mail;
 						$_SESSION['rank'] = $compare_password['rank'];
+						$_SESSION['image'] = $compare_password['image_profil'];
 
 						$_POST['mail'] = "";
 						$_POST['passwordIdentification'] = "";

@@ -2,10 +2,13 @@
   <header class="blog-header py-3">
       <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col-4 pt-1">
-          <p class="text-muted" style="margin-top: 17px">Bienvenue <?= $_SESSION['pseudo'] ?></p>
+          <div style="margin-top: 20px">
+            <div style="margin-left: 13px; height: 100px; width: 100px; border: 1px solid grey; border-radius: 50%; background: url('<?= $_SESSION["image"] ?>'); background-size: 100px"></div>
+            <p class="text-muted" style="margin-top: 17px">Bienvenue <?= $_SESSION['pseudo'] ?></p>
+        </div>
         </div>
         <div class="col-4 text-center">
-          <a href="home"><img src="assets/images/logoAC.png" alt="logo"></a> 
+          <a href="home"><img src="assets/images/logoAC.png" alt="logo" class="imgLogo"></a> 
         </div>
         <div class="col-4 d-flex justify-content-end align-items-center">
         <form method="post">

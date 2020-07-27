@@ -18,7 +18,7 @@
 
 			$db = $this->dbConnect();
 
-			$reqPassword = $db->prepare('SELECT password, pseudo, rank FROM users WHERE mail = ?');
+			$reqPassword = $db->prepare('SELECT password, image_profil, pseudo, rank FROM users WHERE mail = ?');
 			$reqPassword->execute(array($mail));
 
 			return $reqPassword->fetch();

@@ -41,8 +41,9 @@
 				$passwordCrypted = password_hash($password, PASSWORD_DEFAULT);
 				$secret = rand().rand();
 				$rank = "visitor";
+				$image = str_secur("assets/images/empty_profile.png");
 
-				$inscription->sendAllInformations($mail, $pseudo, $passwordCrypted, $secret, $rank);
+				$inscription->sendAllInformations($mail, $pseudo, $image, $passwordCrypted, $secret, $rank);
 
 				header('location: identification');
 				exit();

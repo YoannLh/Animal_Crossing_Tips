@@ -297,10 +297,40 @@ a:hover {
   width: 33%;
 }
 
+@media screen and (max-width: 760px) 
+{
+  .section_profile
+  {
+    width: 75%;
+  }
+}
+
 .modifyProfile {
   margin: 25px auto 5px auto;
   text-align: center;
 }
+
+#selectProfile {
+  position: relative;
+}
+
+#selectedProfile {
+  position: relative;
+}
+
+#choices {
+  position: absolute;
+  bottom: 250px;
+  right: 50px;
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  background: white;
+  z-index: 2;
+  box-shadow: 3px 3px 3px grey;
+}
+
+
 
 
 

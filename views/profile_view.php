@@ -20,7 +20,7 @@
 		<section class="section_profile">
 			<div class="profile flex" style="margin-bottom: 25px">
 				<div style="margin: auto">
-					<img src="assets/images/empty_profile.png" alt="photo_de_profil_vide" style="height: 100px">
+					<img src="<?= $_SESSION["image"] ?>" alt="photo_de_profil" style="margin: auto; height: 100px; width: 100px; border: 1px solid grey; border-radius: 50%">
 				</div>
 			</div>
 			<div class="profile flex">

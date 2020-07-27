@@ -16,13 +16,13 @@
 
 		}
 
-		public function sendAllInformations($mail, $pseudo, $passwordCrypted, $secret, $rank) {
+		public function sendAllInformations($mail, $pseudo, $image, $passwordCrypted, $secret, $rank) {
 
 			$db = $this->dbConnect();
 
-			$reqSend = $db->prepare('INSERT INTO users(mail, pseudo, password, secret, rank) VALUES (?, ?, ?, ?, ?)');
+			$reqSend = $db->prepare('INSERT INTO users(mail, pseudo, image, password, secret, rank) VALUES (?, ?, ?, ?, ?, ?)');
 
-			$reqSend->execute(array($mail, $pseudo, $passwordCrypted, $secret, $rank));
+			$reqSend->execute(array($mail, $pseudo, $image, $passwordCrypted, $secret, $rank));
 
 		}
 	}
